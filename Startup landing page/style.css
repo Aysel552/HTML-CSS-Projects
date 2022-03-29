@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: #fafafa url(./images/svg-gradient.svg) bottom right/contain no-repeat;
+    overflow: hidden;
+}
+
+nav{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav .fa-bars{
+    display: none;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #2C2C2C;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    margin-right: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-btn{
+    background-color: #50CDFB;
+    padding: 10px 16px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.nav-btn:hover{
+    background-color: #f55d5d;
+    transition: 0.2s ease-out;
+}
+
+.main-content{
+    padding-top: 5rem;
+    max-width: 80%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    justify-content: space-between;
+}
+
+.main-col-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-col-right{
+    width: 50%;
+}
+
+.main-img{
+    position: absolute;
+    top: 100px;
+}
+
+.main-content h1, .main-content p{
+    margin-bottom: 1.5rem;
+}
+
+.main-content p{
+    font-size: 1.5rem;
+}
+
+.email{
+    width: 280px;
+    height: 50px;
+    border: none;
+    border-left: 6px solid #5250fb;
+    border-radius: 4px;
+    box-shadow: 1px 1px 6px -1px rgba(0, 0, 0, 0.25);
+    outline: none;
+    margin-bottom: 1.5rem;
+    padding-left: 3rem;
+}
+
+.icon{
+    padding-left: 25px;
+    transform: translate(0%,100%);
+    color: #5250fb;
+    width: 70px;
+    text-align: left;
+    position: absolute;
+}
+
+.main-btn{
+    background-color: #5250fb;
+    padding: 14px 0;
+    border-radius: 4px;
+    font-size: 1rem;
+    border: none;
+    width: 180px;
+    text-align: center;
+    color: #fff;
+}
+
+.main-btn:hover{
+    background-color: #50CDFB;
+    transition: 0.2s ease-out;
+}
+
+.new-section{
+    height: 100vh;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
