@@ -213,4 +213,65 @@
 .memberships h1{
     margin-bottom: 1rem;
     font-size: clamp(2rem, 5vw, 3rem);
+    padding: 0rem 1rem;
 }
+
+.membership__desc{
+    margin-bottom: 3rem;
+    font-size: clamp(1rem,3vw, 1.5rem);
+    padding: 1rem;
+}
+
+.membership__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.membership__card{
+    padding: 2rem;
+    min-height: 450px;
+    width: 325px;
+    background: var(--white);
+    color: var(--black);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.membership-perks{
+    min-height: 150px;
+}
+
+.membership__card p{
+    margin-bottom: 1rem;
+}
+
+.card-icon{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: var(--red);
+}
+
+.membership__card h3{
+    font-size: clamp(1rem, 5vw, 2rem);
+    margin-bottom: 2rem;
+}
+
+/* Responsive Membership */
+
+@media screen and (max-width: 1100px){
+    .membership__wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .membership__card{
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+}
+
+/* Team Section */
