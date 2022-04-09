@@ -21,7 +21,8 @@ gsap.from('.animate-hero', {
     duration: 0.6,
     opacity: 0,
     y: -150,
-    stagger: 0.3
+    stagger: 0.3,
+    delay: 0.3
 })
 
 gsap.from('.animate-services', {
@@ -29,14 +30,16 @@ gsap.from('.animate-services', {
     duration: 0.5,
     opacity: 1,
     x: -150,
-    stagger: 0.12
+    stagger: 0.12,
+    delay: 0.2
 })
 
 gsap.from('.animate-img', {
     ScrollTrigger: ' .animate-services',
     duration: 1.2,
     opacity: 0,
-    x: -200
+    x: -200,
+    delay: 0.7
 })
 
 gsap.from('.animate-membership', {
@@ -45,7 +48,7 @@ gsap.from('.animate-membership', {
     opacity: 0,
     y: -150,
     stagger: 0.3,
-    delay: 0.5
+    delay: 1.4
 })
 
 gsap.from('.animate-card', {
@@ -54,7 +57,7 @@ gsap.from('.animate-card', {
     opacity: 0,
     y: -150,
     stagger: 0.1,
-    delay: 0.2
+    delay: 1.5
 })
 
 gsap.from('.animate-team', {
@@ -63,7 +66,7 @@ gsap.from('.animate-team', {
     opacity: 0,
     y: -150,
     stagger: 0.2,
-    delay: 0.2
+    delay: 1.8
 })
 
 
@@ -73,7 +76,7 @@ gsap.from('.animate-email', {
     opacity: 0,
     y: -150,
     stagger: 0.25,
-    delay: 1
+    delay: 1.9
 })
 
 
