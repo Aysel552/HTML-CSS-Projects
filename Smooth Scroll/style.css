@@ -62,6 +62,7 @@
     width: 125px;
     text-decoration: none;
     height: 100%;
+    transition: all 0.3s ease;
 }
 
 .navbar__btn{
@@ -87,5 +88,57 @@
     background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d,#833ab4);
     background: linear-gradient(to right, #fcb045, #fd1d1d,#833ab4);
     color: #fff;
+    transition: all 0.3s ease;
 }
 
+.navbar__links:hover{
+    color: #9518fc;
+    transition: all 0.3s ease;
+
+}
+
+
+/* Navbar Responsive */
+
+@media screen and (max-width: 960px){
+    .navbar__container{
+        display: flex;
+        justify-content: space-between;
+        /* flex-direction: column; */
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0;
+    }
+
+    .navbar__menu{
+        grid-template-columns: auto;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        /* top: -1000px; */
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: -1;
+        background: #131313;
+    }
+
+    .navbar__menu.active{
+        background: #131313;
+        top: 100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 99;
+        height: 60vh;
+        font-size: 1.6rem;
+    }
+
+    #navbar__logo{
+        padding-left: 25px;
+    }
+
+    
+
+
+}
