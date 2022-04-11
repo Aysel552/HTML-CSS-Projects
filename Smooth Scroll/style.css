@@ -564,3 +564,15 @@ background: linear-gradient(to right, #F37335, #FDC830);
 }
 
 /* Responsive Services Section */
+
+@media screen and (max-width: 1300px){
+    .services__wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .services__wrapper {
+        grid-template-columns: 1fr;
+    }
+}
